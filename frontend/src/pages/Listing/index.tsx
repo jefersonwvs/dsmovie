@@ -1,5 +1,9 @@
+import Pagination from 'components/Pagination';
+
+import './styles.css';
+
 const Listing = function () {
-  return <h1>Tela de Listagem</h1>;
+  return <Pagination />;
 };
 
 export default Listing;

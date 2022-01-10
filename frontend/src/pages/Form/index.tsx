@@ -1,4 +1,5 @@
 import './styles.css';
+
 const movie = {
   id: 1,
   image:
