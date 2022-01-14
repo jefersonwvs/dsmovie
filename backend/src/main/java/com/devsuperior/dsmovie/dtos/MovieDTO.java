@@ -28,7 +28,7 @@ public class MovieDTO {
       this.image = entity.getImage();
    }
 
-   Long getId() {
+   public Long getId() {
       return id;
    }
 
@@ -66,5 +66,11 @@ public class MovieDTO {
 
    public void setImage(String image) {
       this.image = image;
+   }
+
+   @Override
+   public String toString() {
+      return "MovieDTO [count=" + count + ", id=" + id + ", image=" + image + ", score=" + score
+            + ", title=" + title + "]";
    }
 }

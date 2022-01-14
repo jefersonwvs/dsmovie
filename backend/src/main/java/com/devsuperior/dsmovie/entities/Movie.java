@@ -105,4 +105,9 @@ public class Movie implements Serializable {
       return true;
    }
 
+   @Override
+   public String toString() {
+      return "Movie [count=" + count + ", id=" + id + ", image=" + image + ", score=" + score
+            + ", scores=" + scores + ", title=" + title + "]";
+   }
 }
